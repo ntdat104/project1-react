@@ -1,0 +1,29 @@
+.banner {
+  margin: 15rem auto;
+  max-width: 70rem;
+  text-align: center;
+}
+.banner__heading {
+  font-weight: 700;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+.banner__desc {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+.banner__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+.banner__buttons .btn {
+  margin: 0 1rem;
+  transition: color 0.3s linear, border 0.3s linear;
+}
+.banner__buttons .btn:first-child:hover {
+  color: #ffc87a;
+}

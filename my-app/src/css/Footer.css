@@ -1,0 +1,17 @@
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.footer__item {
+  width: 25%;
+}
+.footer__link {
+  color: #1a2b5f;
+  font-size: 1.4rem;
+  display: block;
+  margin-bottom: 3rem;
+  width: fit-content;
+}

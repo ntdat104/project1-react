@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../css/Connect.css";
 
 class Connect extends Component {
   render() {

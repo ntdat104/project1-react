@@ -1,0 +1,27 @@
+.connect {
+  margin-bottom: 18rem;
+  text-align: center;
+}
+.connect__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+}
+.connect__notice {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+.connect__notice span {
+  color: #ffc87a;
+}
+.connect__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+.connect__item {
+  width: calc(25% - 22.5px);
+}

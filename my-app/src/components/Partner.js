@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../css/Partner.css";
 
 class Partner extends Component {
   render() {

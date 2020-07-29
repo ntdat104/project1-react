@@ -1,0 +1,21 @@
+.partner {
+  margin-bottom: 18rem;
+}
+.partner__container {
+  max-width: 83rem;
+  text-align: center;
+}
+.partner__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 7rem;
+  padding-bottom: 7rem;
+  border-bottom: 1px solid currentColor;
+}
+.partner__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
